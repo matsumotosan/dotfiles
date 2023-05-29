@@ -1,3 +1,5 @@
+local icons = require('config.icons')
+
 return {
   'nvim-lualine/lualine.nvim',
   dependencies = { 'kyazdani42/nvim-web-devicons' },
@@ -30,17 +32,28 @@ return {
       lualine_b = {
         {
           'branch',
-          icon = '',
+          icon = icons.git.Branch,
         },
         {
           'diff',
           symbols = {
-            added = ' ',
-            modified = ' ',
-            removed = ' ',
+            added = icons.git.LineAdded,
+            modified = icons.git.LineModified,
+            removed = icons.git.LineModified,
           },
         },
-        'diagnostics',
+        {
+          'diagnostics',
+          sources = { 'nvim_lsp', 'nvim_diagnostic' },
+          sections = { 'error', 'warn', 'info', 'hint' },
+          symbols = {
+            error = icons.diagnostics.Error,
+            warn = icons.diagnostics.Warning,
+            info = icons.diagnostics.Information,
+            hint = icons.diagnostics.Hint,
+          },
+          colored = true,
+        },
       },
       lualine_c = {'filename'},
       lualine_x = {'encoding', 'fileformat', 'filetype'},

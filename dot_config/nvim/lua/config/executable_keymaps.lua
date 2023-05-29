@@ -51,8 +51,8 @@ keymap.set({ "n", "v" }, "<leader>d", [["_d]])
 keymap.set("n", "Q", "<nop>")
 
 -- Change project folder
-keymap.set("n", "<C-f>", "<cmd>silent !tmux neww tmux-sessionizer<CR>")
-keymap.set("n", "<leader>f", vim.lsp.buf.format)
+-- keymap.set("n", "<C-f>", "<cmd>silent !tmux neww tmux-sessionizer<CR>")
+-- keymap.set("n", "<leader>f", vim.lsp.buf.format)
 
 -- Replace current work
 keymap.set("n", "<leader>r", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])

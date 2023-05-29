@@ -17,7 +17,7 @@ return {
     bufname_exclude = {
       'README.md',
     },
+    show_current_context = false,
     show_trailing_blankline_indent = false,
-    show_current_context = true,
   },
 }

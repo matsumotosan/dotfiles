@@ -40,8 +40,4 @@ vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = "80"
 
--- right justify, indicate if modified
-vim.opt.winbar = "%=%m %f"
-
--- global status line
 vim.opt.laststatus = 3
