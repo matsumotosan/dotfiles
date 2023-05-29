@@ -18,8 +18,6 @@ scrolling:
 font:
   size: 14.0
   normal:
-    # family: "MesloLG Nerd Font"
-    # family: "JetBrainsMono Nerd Font"
     family: "SFMono Nerd Font"
 
 cursor:
