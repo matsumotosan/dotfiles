@@ -1,0 +1,76 @@
+live_config_reload = true
+
+[colors.primary]
+background = '0x32302f'
+foreground = '0xd4be98'
+
+[colors.normal]
+black =   '0x45403d'
+red =     '0xea6962'
+green =   '0xa9b665'
+yellow =  '0xd8a657'
+blue =    '0x7daea3'
+magenta = '0xd3869b'
+cyan =    '0x89b482'
+white =   '0xd4be98'
+
+[colors.bright]
+black =   '0x45403d'
+red =     '0xea6962'
+green =   '0xa9b665'
+yellow =  '0xd8a657'
+blue =    '0x7daea3'
+magenta = '0xd3869b'
+cyan =    '0x89b482'
+white =   '0xd4be98'
+
+[cursor]
+unfocused_hollow = true
+style = { blinking = "always", shape = "Block" }
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 14.0
+offset = { x = 0, y = 2 }
+glyph_offset = { x = 0, y = 1 }
+
+normal = { family = "Liga SFMono Nerd Font", style = "Regular" }
+italic = { family = "Liga SFMono Nerd Font", style = "Italic" }
+bold = { family = "Liga SFMono Nerd Font", style = "Bold" }
+bold_italic = { family = "Liga SFMono Nerd Font", style = "Bold Italic" }
+
+# normal = { family = "Maple Mono", style = "Regular" }
+# italic = { family = "Maple Mono", style = "Italic" }
+# bold = { family = "Maple Mono", style = "Bold" }
+# bold_italic = { family = "Maple Mono", style = "Bold Italic" }
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[selection]
+save_to_clipboard = true
+semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
+
+[shell]
+program = "/usr/local/bin/fish"
+
+[window]
+blur = true
+decorations = "buttonless"
+dynamic_padding = true
+opacity = 0.97
+option_as_alt = "OnlyLeft"
+padding = { x = 4, y = 4 }
+
+[keyboard]
+bindings = [
+    { key = "Return", mods = "Shift", chars = "\u001B[13;2u" },
+#     { key = "h", mods = "Alt", chars = "\x1ba" },
+#     { key = "H", mods = "Alt", chars = "H" },
+#     { key = "O", mods = "Control|Shift", action = "Open" },
+#     { key = "V", mods = "Control|Shift", action = "ToggleBlockSelection" },
+#     { key = "L", mods = "Control|Shift", chars = "l" },
+]
