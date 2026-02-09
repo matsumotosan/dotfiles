@@ -1,0 +1,23 @@
+return {
+	-- "Exafunction/codeium.vim",
+	-- event = "BufEnter",
+	-- config = function ()
+	-- 	vim.g.codeium_disable_bindings = 1
+	-- 	vim.g.codeium_manual = true
+	-- 	vim.g.codeium_no_map_tab = false
+	--
+	-- 	vim.keymap.set('i', '<C-Tab>', function() return vim.fn['codeium#Accept']() end, { expr = true, silent = true })
+	-- 	-- vim.keymap.set('i', '<C-i>', function() return vim.fn['codeium#Complete']() end, { expr = true, silent = true })
+	-- 	vim.keymap.set('i', '<C-[>', function() return vim.fn['codeium#CycleOrComplete']() end, { expr = true, silent = true })
+	-- 	vim.keymap.set('i', '<C-]>', function() return vim.fn['codeium#CycleCompletions'](-1) end, { expr = true, silent = true })
+	-- 	vim.keymap.set('i', '<C-z>', function() return vim.fn['codeium#Clear']() end, { expr = true, silent = true })
+	--
+	-- 	vim.g.codeium_filetypes = {
+	-- 		c = false,
+	-- 		lua = true,
+	-- 		python = true,
+	-- 		rust = false,
+	-- 		zig = false,
+	-- 	}
+	-- end
+}

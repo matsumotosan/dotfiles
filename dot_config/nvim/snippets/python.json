@@ -1,0 +1,18 @@
+{
+  "f-string": {
+    "prefix": "fp",
+    "body": [
+      "print(f\"$1: {${1}}\")"
+    ],
+    "description": "Insert an f-string with a dynamic placeholder"
+  },
+  "imports": {
+    "prefix": "itorch",
+    "body": [
+      "import torch",
+      "import torch.nn as nn",
+      "import torch.optim as optim"
+    ],
+    "description": "Insert an f-string with a dynamic placeholder"
+  }
+}

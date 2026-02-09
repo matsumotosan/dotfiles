@@ -1,0 +1,9 @@
+{
+    "workspace.checkThirdParty": false,
+    "diagnostics.globals": [
+        "icons"
+    ],
+    "diagnostics.disable": [
+        "missing-fields"
+    ]
+}
